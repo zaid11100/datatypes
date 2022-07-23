@@ -64,5 +64,5 @@
 
 
 // a='hi,i,AM'
-a =  "hi, i AM, HELLO "
-console.log(a.split(','))
+// a =  "hi, i AM, HELLO "
+// console.log(a.split(','))
