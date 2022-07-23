@@ -62,3 +62,7 @@
 // a.splice(7)
 // console.log(a)
 
+
+// a='hi,i,AM'
+a =  "hi, i AM, HELLO "
+console.log(a.split(','))
