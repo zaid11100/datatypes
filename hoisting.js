@@ -69,8 +69,76 @@
 //     console.log(a-5)
 // }
 
-let a;
-a=0; //define
-var a=3;//declare
-var a=5;//redefine
+// let a=5
+// console.log(a)
+// {
+//  let a=6
+//  console.log(a)
+//  {
+//    let b=6
+//    console.log(a)
+
+//  }
+
+// }
+// console.log(a)
+
+//CONS
+//const cannot be redefine
+//should be declared and defined at at time
+//cannot be reinitialized
+
+// var a=3;
+// const a=5;
+// console.log(a)
+
+// let a=3;
+// const a=5;
+// console.log(a)
+
+// const a=4
+// console.log(a)
+// { 
+//      let a=6
+//    console.log(a)
+// }
+// var b=5
+// console.log(b)
+
+
+// var a=4
+// console.log(a)
+// { 
+//     const a=6
+//    console.log(a)
+// }
+// // let b=5
+// // console.log(b)
+
+
+
+
+//NESTED
+let a = 8;
+// {
+//   let a=0;
+//   {
+//     const a=9;
+//     console.log(a)
+//  }
+//   console.log(a)
+
+// }
+// console.log(a)
+ let a = 8
+{  
+    console.log(a)
+    {
+     console.log(a)
+     let a = 9
+
+    }
+    console.log(a)
+
+}
 console.log(a)
